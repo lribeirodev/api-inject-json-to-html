@@ -4,11 +4,11 @@
     "description": "Profissional com formação em Análise e Desenvolvimento de Sistemas e conhecimento em Angular e Java. Perfil dinâmico e proativo, com foco no aprendizado constante e no trabalho em equipe, a fim de contribuir para o alcance das metas.",
     "personal_info": {
         "title": "informações pessoais",
-        "email": "<b>email:</b> lucasnunesr@live.com",
+        "email": "<b>email:</b> emailexample@live.com",
         "phones": [
             {
                 "ddd": "<b>telefone:</b> 11",
-                "number": 982631867
+                "number": 912345678
             }
         ]
     },
@@ -16,28 +16,12 @@
         "title": "experiência profissional",
         "experiences": [
             {
-                "role": "cargo: consultor técnico",
-                "company": "empresa: vilt brasil sistemas de informação",
-                "work_model": "remoto - 12/2021 - atual",
+                "role": "cargo: senior developer",
+                "company": "empresa: apple",
+                "work_model": "remote",
                 "start": "",
                 "end": "",
-                "description": "atuação fullstack frontend e aem, com foco em resolução de problemas, desenvolvimento de novas funcões, entendimento do produto, apresentação e documentação, utilizando metodologia agil, scrum e jira para organização das demandas, no frontend utilizamos angular como framework, typescript para tipagem e scss para estilização dos componentes, no aem o foco principal são nos módulos de backend para o desenvolvimento e criação das dialogs, java, serviços, modos de execução da instância, regras de negócio no dispatcher não limitado apenas a isso, pois todo esse desenvolvimento é feito de maneira integrada, também realizo a implantação nos ambientes de desenvolvimento, homologação e produção."
-            },
-            {
-                "role": "cargo: design gráfico",
-                "company": "empresa: autonômo",
-                "work_model": "presencial - 01/2017 - 12/2018",
-                "start": "",
-                "end": "",
-                "description": "briefing com o cliente para o desenvolvimento da identidade visual, logo marca, banners, chaveiros, padronização, medição in loco, orçamento, propescção de fornecedores, ferramentas utilizadas para o desenvolvimento do design adobe illustrator, adobe photoshop, corel draw x9."
-            },
-            {
-                "role": "cargo: técnico em informática",
-                "company": "empresa: autônomo - somera informática",
-                "work_model": "presencial - 06/2014 - 12/2016",
-                "start": "",
-                "end": "",
-                "description": "levantamento de requisitos, orçamento, proposta de solução, manutenção de hardwares desktop, notebooks, smartphones, instalação de software e programas, configuração de servidores, configuração de roteadores para o padrão lan e wan, repetidor, cripagem de cabo cat5 com rj45, atendimento ao cliente."
+                "description": "working as fullstack development"
             }
         ]
     },
@@ -153,32 +137,26 @@
         "formations" : 
         [
             {
-                "course_name": "Tecnólogo, Análise e Desenvolvimento de Sistemas",
-                "instituiton": "UNISA - 2020/01 - 2022/07",
-                "start": "",
-                "end": ""
-            },
-            {
-                "course_name": "Graduação, Ciencia da Computação",
-                "instituiton": "University of the People, California - 2021/11 - atualmente",
+                "course_name": "Bachelor, Computer Science",
+                "instituiton": "Wisconsin - 2000 - 2005",
                 "start": "",
                 "end": ""
             }
         ]
     },
     "languages": {
-        "title": "idiomas",
+        "title": "Idioms",
         "languages" : [
             {
-                "language": "Inglês Avançado"
+                "language": "Portuguese Native"
             }
         ] 
     },
     "certifieds":{
-        "title": "certificados",
+        "title": "certifieds",
         "certifieds" : [
             {
-                "name": "Adobe Certified Expert - Adobe Experience Manager Sites Developer"
+                "name": "Java Expert Developer"
             }
         ] 
     }
