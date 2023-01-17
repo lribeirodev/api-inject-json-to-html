@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Curriculo Lucas Ribeiro</title>
+</head>
+<body>
+    <script src="./api.js"></script>
+    <!-- CONTEUDO DINAMICO -->
+    <div class="resume">
+        <div class="resume__initial-data">
+            <h1 class="resume__initial-data__name" property="name">
+            </h1>
+            <p class="resume__initial-data__description" property="description">
+            </p>
+        </div>
+        <div class="resume__title" property="personal_info" child="title"></div>
+        <div class="resume__personal-info">
+                <div class="resume__personal-info__email" property="personal_info" child="email"></div>
+                <div class="resume__personal-info__phones" property="personal_info" array-property="phones">
+                    <div class="resume__personal-info__phones__container" container></div>
+                    <div class="resume__personal-info__phones__container__ddd" property="ddd"></div>
+                    <div class="resume__personal-info__phones__container__number" property="number"></div>
+                </div>
+        </div>
+        <div class="resume__title" property="professional_experiences" child="title"></div>
+        <div class="resume__professional-experiences"  property="professional_experiences" array-property="experiences">
+                <div class="resume__professional-experiences__container" container></div>
+                <div class="resume__professional-experiences__container__role" property="role"></div>
+                <div class="resume__professional-experiences__container__company" property="company"></div>
+                <div class="resume__professional-experiences__container__work-model" property="work_model"></div>
+                <div class="resume__professional-experiences__container__start" property="start"></div>
+                <div class="resume__professional-experiences__container__end" property="end"></div>
+                <div class="resume__professional-experiences__container__description" property="description"></div>
+            </div>
+        </div>
+        <div class="resume__title" property="skills" child="title"></div>
+        <div class="resume__skills"  property="skills" array-property="expertise">
+            <div class="resume__skills__container" container></div>
+            <div class="resume__skills__container__name" property="name"></div>
+            <div class="resume__skills__container__level" property="level"></div>
+        </div>
+        <div class="resume__title" property="academic_formation" child="title"></div>
+        <div class="resume__academic-formation" property="academic_formation" array-property="formations">
+                <div class="resume__academic-formation__container" container></div>
+                <div class="resume__academic-formation__container__course-name" property="course_name"></div>
+                <div class="resume__academic-formation__container__instituiton" property="instituiton"></div>
+                <div class="resume__academic-formation__container__course-start" property="start"></div>
+                <div class="resume__academic-formation__container__course-end" property="end"></div>
+        </div>
+        <div class="resume__title" property="languages" child="title"></div>
+        <div class="resume__languages" property="languages" array-property="languages">
+            <div class="resume__languages__container" container></div>
+            <div class="resume__languages__container__language" property="language"></div>
+        </div>
+        <div class="resume__title" property="certifieds" child="title"></div>
+        <div class="resume__certifieds" property="certifieds" array-property="certifieds">
+            <div class="resume__certifieds__container" container></div>
+            <div class="resume__certifieds__container__certified" property="name"></div>
+        </div>
+    </div>
+</body>
+</html>
