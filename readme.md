@@ -40,3 +40,7 @@ Após a inicialização da API, os dados serão injetados nas propriedades equiv
     <li>Após a propriedade array-property é necessario declarar um container</li>
     <li>Array são lidos apenas no primeiro nível</li>
 </ul>
+
+
+LIVE EXAMPLE:
+<a href="https://lribeirodev.github.io/api-inject-json-to-html/resume.html">CLIQUE AQUI / CLICK HERE</a>
